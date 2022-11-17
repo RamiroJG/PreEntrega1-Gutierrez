@@ -1,3 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.fontJP{
+    font-family: 'ZCOOL KuaiLe', sans-serif;
+}
+.bg-JP{
+    background-color: #F1DC8B;
+}
+.bg-button{
+    background-color: #B5383E;
+}
+.margin{
+    margin-left: 84%;
+    top: 24rem;
+}

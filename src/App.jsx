@@ -5,12 +5,11 @@ function App() {
 
   return (
     <>
-      <div className="container mx-auto p-4">
+      <div className="mx-auto p-4 border-b-4 border-b-black">
         <Header/>
-        
       </div>
       
-      {/* <Hero/> */}
+      <Hero/>
     </>
     
   )
