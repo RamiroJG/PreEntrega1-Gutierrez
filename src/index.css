@@ -3,6 +3,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@media(max-width: 1024px){
+    .heroH{
+        height: 50%!important;
+    }
+}
+
 .fontJP{
     font-family: 'ZCOOL KuaiLe', sans-serif;
 }
@@ -14,5 +20,16 @@
 }
 .margin{
     margin-left: 84%;
-    top: 24rem;
+    top: 18rem;
+}
+@media(max-width: 992px){
+    .desaparece{
+        display: none;
+    }
+}
+.move{
+    right: 22.5%;
+}
+.borde{
+    border-color: #B5383E;
 }

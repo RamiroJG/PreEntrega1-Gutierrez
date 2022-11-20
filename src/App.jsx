@@ -1,5 +1,7 @@
 import Header from "./components/Header"
 import Hero from "./components/Hero"
+import ListadoProductos from "./components/ListadoProductos"
+import Footer from "./components/Footer"
 
 function App() {
 
@@ -9,7 +11,12 @@ function App() {
         <Header/>
       </div>
       
-      <Hero/>
+      <div className="heroH bg-black">
+        <Hero/>
+      </div>
+      
+      <ListadoProductos/>
+      <Footer/>
     </>
     
   )

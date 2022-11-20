@@ -1,17 +1,17 @@
 const Hero = () => {
   return (
     <>
-    <img src="./src/assets/img/fondo.png" alt=""  className="absolute"/>
-    <div className="container md:flex items-center mx-auto justify-center pt-7 relative">
+    <img src="./src/assets/img/fondoD.png" alt=""  className="absolute desaparece"/>
+    <div className="container md:flex items-center mx-auto justify-center pt-7 relative p-3 ">
       <div>
         <img 
             src="./src/assets/img/hero1.png" 
             alt="banner img"
-            className="mx-auto rotate-12 w-2/4 md:w-3/4"
+            className="mx-auto w-2/4 md:w-3/4"
           />
       </div>
-      <div className="md:text-4xl  text-2xl uppercase">
-        <p className="font-fuenteJP w-1/2 mb-4 md:text-left text-center mx-auto md:mx-0">enjoy our snacks as well as our Mangas.</p>
+      <div className=" uppercase">
+        <p className="font-fuenteJP w-1/2 mb-4 md:text-left text-center mx-auto md:mx-0 md:text-4xl text-sm text-white">enjoy our snacks as well as our Mangas.</p>
         <a 
           href="#"
           className="
@@ -34,7 +34,7 @@ const Hero = () => {
       </div>
       
     </div>
-    <img src="./src/assets/img/fondor.png" alt="" className="flex margin container w-72 absolute"/>
+    <img src="./src/assets/img/fondoI.png" alt="" className="flex margin container w-72 absolute desaparece"/>
     </>
     
   )
