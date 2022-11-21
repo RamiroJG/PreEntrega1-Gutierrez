@@ -1,14 +1,16 @@
 import React from 'react'
 
-const ListadoProductos = () => {
+export const saludar = () => console.log('Saludo')
+
+const ListadoProductos = ({saludo}) => {
   return (
     <>
         <div className='pt-12'>
             <div className='text-center mb-10 mt-10 md:mt-0'>
                 <h3 
-                    className='text-5xl'
+                    className='text-4xl'
                 >
-                    New revenues
+                    {saludo}
                 </h3>
                 <p className='text-lg mt-1 text-gray-700 font-semibold'>most wanted products</p>
             </div>

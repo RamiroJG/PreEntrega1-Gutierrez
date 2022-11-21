@@ -15,7 +15,9 @@ function App() {
         <Hero/>
       </div>
       
-      <ListadoProductos/>
+      <ListadoProductos
+        saludo={'Welcome to our best selling products'}
+      />
       <Footer/>
     </>
     
